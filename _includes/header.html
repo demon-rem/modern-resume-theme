@@ -104,6 +104,12 @@
             </a>
           </li>
         {% endfor %}
+
+        {% if site.resume %}
+          <a target="_blank" href="./{{ site.resume }}" title="Resume" class="button button--sacnite button--round-l text-center">
+            <i id="dark-theme-button" class="fas fa-file-download"></i>
+          </a>
+        {% endif %}
       </ul>
 
       {%- if site.email -%}

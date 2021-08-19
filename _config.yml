@@ -32,6 +32,8 @@ pinterest_username: jekyll
 youtube_username: jekyll
 googleplus_username: +jekyll
 orcid_username: 0000-0000-0000-0000
+resume: Resume.pdf  # Value should be the name of the resume file present in the project root
+                    # In this example, the project root should have a file `Resume.pdf` case-sensitive
 
 # Additional icon links
 additional_links:
